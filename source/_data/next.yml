@@ -1,0 +1,29 @@
+override: false
+
+#字体修改
+font:
+  enable: true
+
+  # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
+  host: https://fonts.loli.net
+
+  # Font options:
+  # `external: true` will load this font family from `host` above.
+  # `family: Times New Roman`. Without any quotes.
+  # `size: xx`. Use `px` as unit.
+
+  # Global font settings used for all elements in <body>.
+  global:
+    external: true
+    family: Noto Serif SC
+    size:
+
+# 鼠标点击特效
+# mouse click effect: fireworks | explosion | love | text
+cursor_effect: fireworks
+
+# 打字特效
+# typing effect
+typing_effect:
+  colorful: true  # 礼花特效
+  shake: false    # 震动特效
